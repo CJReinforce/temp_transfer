@@ -1,0 +1,6 @@
+shoot*envs_step*.csv filter=lfs diff=lfs merge=lfs -text
+optimizer_world_model*.pt filter=lfs diff=lfs merge=lfs -text
+world_model*.pt filter=lfs diff=lfs merge=lfs -text
+optimizer_tokenizer.pt filter=lfs diff=lfs merge=lfs -text
+tokenizer.pt filter=lfs diff=lfs merge=lfs -text
+3_q_head*wm.pt filter=lfs diff=lfs merge=lfs -text
